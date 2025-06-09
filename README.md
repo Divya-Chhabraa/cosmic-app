@@ -5,10 +5,10 @@
 ## Setup instructions
 
 1. Clone the repository  
-   git clone <repository-url>  
+   git clone https://github.com/Divya-Chhabraa/cosmic-app.git 
 
 2. Go into the project folder  
-   cd <project-directory>  
+   cd threejs-cosmic-app  
 
 3. Open the project folder with a live server extension (like Live Server in VS Code) or any HTTP server to serve the files.  
 
