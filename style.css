@@ -19,7 +19,7 @@ body, html {
 
 .circle {
   position: fixed;
-  bottom: 100vh;
+  bottom: 40px; /* Changed from 100vh to 40px so it stays visible near bottom */
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -34,7 +34,7 @@ body, html {
   cursor: default;
   z-index: 10;
   transition: box-shadow 0.3s ease;
-  font: #000;;
+  color: white
 }
 
 .circle:hover {
@@ -92,7 +92,7 @@ body, html {
     width: 100px;
     height: 100px;
     font-size: 0.75rem;
-    bottom: 60px;
+    bottom: 10px; 
   }
 
   .birth-panel {
@@ -118,7 +118,7 @@ body, html {
     width: 160px;
     height: 160px;
     font-size: 1.1rem;
-    bottom: 12vh;
+    bottom: 60px;
   }
 
   .birth-panel {
@@ -136,4 +136,3 @@ body, html {
     font-size: 1.1rem;
   }
 }
-
